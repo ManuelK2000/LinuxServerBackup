@@ -27,11 +27,11 @@ To automate backups, you have to insert a new line with the following structure.
 
 Here are a few examples, that you can adapt.
 
-Create a backup every day at midnight:
+- Create a backup every day at midnight:  
 `0 0 * * * /path/to/backupscript.sh`
 
-Create a backup every day at 3:00 AM:
+- Create a backup every day at 3:00 AM:  
 `0 3 * * * /path/to/backupscript.sh`
 
-Create a backup every Friday at 10:00 PM:
+- Create a backup every Friday at 10:00 PM:  
 `0 22 * * 5 /path/to/backupscript.sh`
