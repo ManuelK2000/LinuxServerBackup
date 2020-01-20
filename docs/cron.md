@@ -1,15 +1,15 @@
 # Cron
 
-Cron is a service, that you can use to schedule and automate tasks.
-You can define items in the cron table that will run any script or program on a given time.
+Cron is a service, that can be useed to schedule and automate tasks.
+You can define items in the cron table that will run a script or program on a given time.
 One example is that a backup script will be scheduled every day at 3:00 AM.
 
 To edit or add a new item to the crontab, enter `crontab -e` in your terminal.
-You have to consider that each user has their own crontab, witch will be executed with his permissions.
+You have to consider that each user has their own crontab, which will be executed with his corresponding permissions.
 
 ## Structure
 
-Every line contains the time and the command, witch will be executed on the given time.
+Every line contains the time and the command, which will be executed on the given time.
 To automate backups, you have to insert a new line with the following structure.
 
 ```
