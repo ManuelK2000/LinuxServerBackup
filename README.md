@@ -24,3 +24,10 @@ Additional the script should be able to run in Local-mode, without copying data 
 In this mode, it simply copies files from one directory or disk to another target, like a seperate local harddrive.
 
 The script will be called via cronjob automatically.
+
+## Scripts
+At first, I want to provide a little collection of script.
+| Script              | Desire       | Description                                                                   |
+| ------------------- | ------------ | ----------------------------------------------------------------------------- |
+| backup-local.sh     | local system | A simple program to backup and restore given directories on a local machine   |
+| webserver-backup.sh | local system | A script to create a local backup of a webserver and the database             |
